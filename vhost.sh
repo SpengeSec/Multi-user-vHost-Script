@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "** Script created by SpengeSec**"
+echo "** Script created by SpengeSec at https://spenge.pw**"
 
 if [[ $# -eq 0 ]] ; then
     echo 'Usage: sudo bash <scriptname.sh> <name> <password> <website.com>'
@@ -10,7 +10,7 @@ fi
 
 NAME=${1?Error: no name given}
 PASSWD=${2?Error: no password given}
-SITE=${3?Error: no site nam given}
+SITE=${3?Error: no site name given}
 
 
 
