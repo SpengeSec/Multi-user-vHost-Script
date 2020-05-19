@@ -92,4 +92,4 @@ echo "* Default index.html created"
 ln -s /var/vhosts/$NAME /home/$NAME
 echo "* Symbolic link from /var/vhosts/$NAME to /home/$NAME created!"
 echo "* All done, website available!"
-echo "<ip>      <www.domain.com> <domain.com> to /etc/hosts and/or C:\Windows\System32\drivers\etc\hosts"
+echo "Add <ip>      <www.domain.com> <domain.com> to /etc/hosts and/or C:\Windows\System32\drivers\etc\hosts"
