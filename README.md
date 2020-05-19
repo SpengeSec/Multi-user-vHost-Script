@@ -1,5 +1,7 @@
 # Multi-user-vHost-Script
 Script to create Apache2 virtualhost for multiple users individually.
+#### By SpengeSec 
+#### Spenge.pw
 
 This script does the following:
 1) Creates a new user
