@@ -7,7 +7,7 @@ Script to create Apache2 virtualhost for multiple users individually.
 >https://spenge.pw
 
 
-This script does the following:
+#### This script does the following:
 1) Creates a new user
 2) Assings it the www-data group
 3) Creates a new virtualhost directory in /var/vhosts/
