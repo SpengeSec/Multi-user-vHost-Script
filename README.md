@@ -13,7 +13,7 @@ This script does the following:
 
 ## Make sure you run as sudo! 
 
-Usage: sudo bash vhost.sh <username> <password> <domain.com>
+Usage: `sudo bash vhost.sh <username> <password> <domain.com>`
   
 ![Usage](/images/usage.png)
 
