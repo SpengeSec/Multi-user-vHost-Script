@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-echo "** Script created by SpengeSec aka R0716728**"
+echo "** Script created by SpengeSec**"
 
 if [[ $# -eq 0 ]] ; then
     echo 'Usage: sudo bash <scriptname.sh> <name> <password> <website.com>'
@@ -44,7 +44,7 @@ echo "* Added user $NAME to www-data usergroup"
 #        </Directory>" >> /etc/apache2/apache2.conf
 
 #Create Apache available-sites vhost configuration file
-cp /etc/apache2/sites-available/brent.com.conf /etc/apache2/sites-available/$SITE.conf
+cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/$SITE.conf
 echo "" > /etc/apache2/sites-available/$SITE.conf
 echo "* Duplicating default apache2 vhost configuration"
 
